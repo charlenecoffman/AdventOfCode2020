@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="InputFiles\PuzzleInput8.txt" />
+    <None Remove="PuzzleInput1.txt" />
+    <None Remove="PuzzleInput2.txt" />
+    <None Remove="PuzzleInput3.txt" />
+    <None Remove="PuzzleInput4.txt" />
+    <None Remove="PuzzleInput5.txt" />
+    <None Remove="PuzzleInput6.txt" />
+    <None Remove="PuzzleInput7.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="InputFiles\PuzzleInput1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFiles\PuzzleInput2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFiles\PuzzleInput3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFiles\PuzzleInput4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFiles\PuzzleInput5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFiles\PuzzleInput6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFiles\PuzzleInput7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFiles\PuzzleInput8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
