@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <None Remove="InputFiles\PuzzleInput8.txt" />
+    <None Remove="InputFiles\PuzzleInput9.txt" />
     <None Remove="PuzzleInput1.txt" />
     <None Remove="PuzzleInput2.txt" />
     <None Remove="PuzzleInput3.txt" />
@@ -36,6 +37,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="InputFiles\PuzzleInput7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFiles\PuzzleInput9.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="InputFiles\PuzzleInput8.txt">

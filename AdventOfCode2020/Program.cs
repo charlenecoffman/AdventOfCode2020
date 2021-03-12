@@ -27,6 +27,8 @@ namespace AdventOfCode2020
 
             Day8.Execute();
 
+            Day9.Execute();
+
             Console.WriteLine("----The End----");
             
             stopWatch.Stop();

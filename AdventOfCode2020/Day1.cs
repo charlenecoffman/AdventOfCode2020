@@ -40,18 +40,18 @@ namespace AdventOfCode2020
             return numberList.Aggregate(1, (current, number) => current * number);
         }
 
-        private static bool DoesSetSumToGoal(List<DigitToSum> theSet, int goal)
+        private static bool DoesSetSumToGoal(List<IntToSum> theSet, int goal)
         {
             var sum = theSet.Sum(t => t.calculatedCurrentValue);
             return sum == goal;
         }
 
-        private static List<DigitToSum> CreateDts(List<int> theOriginalList, int numberOfDts)
+        private static List<IntToSum> CreateDts(List<int> theOriginalList, int numberOfDts)
         {
-            var returnDts = new List<DigitToSum>();
+            var returnDts = new List<IntToSum>();
             for (var i = 0; i < numberOfDts; i++)
             {
-                var newDts = new DigitToSum
+                var newDts = new IntToSum
                 {
                     originalList = theOriginalList
                 };
@@ -61,7 +61,7 @@ namespace AdventOfCode2020
             return returnDts;
         }
 
-        private static void NextNumber(List<DigitToSum> dtsSet, int numberOfNumbers)
+        private static void NextNumber(List<IntToSum> dtsSet, int numberOfNumbers)
         {
             for (var i = dtsSet.Count - 1; i >= 0; i--)
                 if (dtsSet[i].currentIndex != numberOfNumbers - 1)
